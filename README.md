@@ -4,8 +4,9 @@ Storing my configs and setup
 ## Setup
 Checklist of how to setup my system in '/setup'
 
-## Terminal configurations
+## Configuration files
 - zshrc
 - p10k
+- git
 
-run`node terminal/copy-config.js` to copy configs
+run`node config_files/copy-config.js` to copy configs

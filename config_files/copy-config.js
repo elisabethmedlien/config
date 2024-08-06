@@ -4,11 +4,12 @@ const path = require('path');
 // Paths to the source files (modify if needed)
 const sourceFiles = [
   path.join(process.env.HOME, '.p10k.zsh'),
-  path.join(process.env.HOME, '.zshrc')
+  path.join(process.env.HOME, '.zshrc'),
+  path.join(process.env.HOME, '.gitconfig')
 ];
 
-// Destination directory (current directory + '/terminal')
-const destinationDir = path.join(process.cwd(), 'terminal');
+// Destination directory (current directory + '/config_files')
+const destinationDir = path.join(process.cwd(), 'config_files');
 
 sourceFiles.forEach(sourceFile => {
   const destinationFile = path.join(destinationDir, path.basename(sourceFile));
